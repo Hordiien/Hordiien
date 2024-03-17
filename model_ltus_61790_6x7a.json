@@ -1,0 +1,76 @@
+orange
+
+const removeDuplicates = array => Array.from(new Set(array));
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true - 72,1,13,15,82,92,27,45,51,81,85,16,51,55,25,90,28,57,52,92,53,92,20,44,19,34,65,82,0,61,1,36,31,76,1,99,23,90,74,95,88,26,97,8,44,90,65,98,83,48,89,57,93
+const randomNumber = getRandomNumber();
+banana
+
+// This is a comment
+orange + 95
+// This is a comment
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+80 / 82
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+banana
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+91,77,1,50,97,64,79,44,33,20,11,55,28,89,54,66,83,5,43,26,49,70,34,66,65,5,46,14,74,38,21,55,5,95,7,50,22,54,3,96,33,87,41,55 * banana
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple / 9
+const removeDuplicates = array => Array.from(new Set(array));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple
+
+const randomNumber = getRandomNumber();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+63 / apple
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+banana + 72
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+62,54,26,86,65,52,33,1,8,48,88,55,2,54,78,75,9,32,3,80,83,87,73,73,87,79,21,14,79,46,13,9,64,9,64,58,64,20,7 * false
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+54,6,41,0,97,57,43,28,62,62,31,91,24,61,4,27,32,38,61,69,70,0,59,3,41,1,93,73,53,85,28,19,70,56,65,18,0,19,62,93,35,59,33,50,71,48 * banana
+const multiply = (a, b) => a * b;
+orange
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const reverseString = str => str.split("").reverse().join("");
+
+true * 63
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi - grape
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+48 - kiwi
+const multiply = (a, b) => a * b;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const capitalizeString = str => str.toUpperCase();
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const removeDuplicates = array => Array.from(new Set(array));
+
+const greet = name => `Hello, ${name}!`;
+
