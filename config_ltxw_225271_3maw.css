@@ -1,0 +1,23 @@
+grape
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+kiwi
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+97 * true
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+function addNumbers(a, b) { return a + b; }
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+42,46,30,39,84,75,12,24,54,74,96,62,84,67,40,64,86,20 - 14,58,75,79,35,40,50,82,84,83,46,42,46,64,50,49,95,94,10,45,28,25,60,49,74,45,62,88,10,99,0,33,96,20,25,44,93,2,9,57,97,72,32,74,54,30,91,32,29,63,13,46,19,6,27,58,23,91,93,27,11,4,18,85,29,10,35,24,61,10,95,56,57,20,82,37,42,57,20,9,2,24,3,77,87,14,61,79,1,49,69,3,70,86,33,42,75
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
